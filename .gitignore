@@ -1,0 +1,13 @@
+/target
+*.log
+*.webm
+*.mp4
+*.m4a
+*.opus
+target/
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+*~

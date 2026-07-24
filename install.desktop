@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Instalar Gravador Linux
+Comment=Preparar o Linux Mint, compilar e instalar o aplicativo
+Terminal=true
+Icon=system-software-install
+Categories=Development;Utility;
+Exec=bash -c 'DIR="$(dirname "$1")"; chmod +x "$DIR/install.sh" "$DIR/verify-environment.sh"; exec "$DIR/install.sh"' _ %k

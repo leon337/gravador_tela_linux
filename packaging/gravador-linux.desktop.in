@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Gravador Linux
+Comment=Grave tela, microfone e áudio do sistema
+Exec=@HOME@/.local/bin/gravador-linux
+Icon=br.com.leo.GravadorLinux
+Terminal=false
+Categories=AudioVideo;Recorder;
+StartupNotify=true
